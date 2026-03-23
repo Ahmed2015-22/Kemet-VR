@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kemet VR - Book Tour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">KEMET VR</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">1. Home</a></li>
+                <li><a href="pharaohs.html">2. Pharaohs</a></li>
+                <li><a href="gods.html">3. Gods</a></li>
+                <li><a href="mummies.html">4. Mummification</a></li>
+                <li><a href="gallery.html">5. Gallery</a></li>
+                <li><a href="tour.html">6. Book Tour</a></li>
+                <li><a href="map.html">7. Map</a></li>
+                <li><a href="videos.html">8. Videos</a></li>
+                <li><a href="architecture.html">9. Architecture</a></li>
+                <li><a href="about.html">10. About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="tour" class="page-section">
+        <h2 class="section-title">Book a Virtual Tour</h2>
+        <div class="form-section">
+            <form action="#" method="POST">
+                <div class="form-group"><label for="fname">First Name:</label><input type="text" id="fname" name="fname" required placeholder="Ahmed"></div>
+                <div class="form-group"><label for="email">Email Address:</label><input type="email" id="email" name="email" required placeholder="ahmed@example.com"></div>
+                <div class="form-group"><label>Preferred Date:</label><input type="date" name="date" required></div>
+                <div class="form-group"><label for="package">Select Package:</label>
+                    <select id="package" name="package">
+                        <option value="standard">Standard - Giza Pyramids (Free)</option>
+                        <option value="premium">Premium - Luxor & Aswan ($10)</option>
+                        <option value="vip">VIP - Full Kingdom Access ($25)</option>
+                    </select>
+                </div>
+                <div class="form-group"><label>Extras (Checkboxes):</label><br>
+                    <input type="checkbox" id="vr" name="vr" value="yes" style="width: auto;"> <label for="vr" style="display:inline;">Send VR Headset</label><br>
+                    <input type="checkbox" id="guide" name="guide" value="yes" style="width: auto;"> <label for="guide" style="display:inline;">Include Audio Guide</label>
+                </div>
+                <div class="form-group"><label for="message">Additional Notes:</label><textarea id="message" name="message" rows="4" placeholder="Any special requests?"></textarea></div>
+                <button type="submit">Confirm Booking</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Kemet VR Project. Created by Team.</p>
+        <p>Contact us: <a href="mailto:project@example.com">project@example.com</a></p>
+    </footer>
+</body>
+</html>
